@@ -1,18 +1,18 @@
 ## About This Repository
 
-This repository contains my hands-on practice in AWS and DevSecOps.
-I use it to apply what I learn by building, deploying, and troubleshooting
-real infrastructure and applications.
+This repository contains my hands-on implementation of AWS and DevSecOps.
+I use it to build, deploy, and troubleshoot real infrastructure and
+applications in a real-world setup.
 
-## What I Practice Here
+## What I Work On Here
 
 - Linux administration and shell scripting
 - Infrastructure creation using Terraform
 - Configuration management with Ansible
 - Docker image creation and best practices
-- Kubernetes deployments and scaling
+- Kubernetes deployments, scaling, and upgrades
 - CI/CD pipelines using Jenkins
-- Basic DevSecOps practices such as image scanning and secrets handling
+- DevSecOps practices such as image scanning and secrets handling
 
 ## Tools and Technologies
 
@@ -26,14 +26,17 @@ real infrastructure and applications.
 - Monitoring & Reliability: Logs, metrics, basic SRE practices
 - OS & Scripting: Linux, Shell scripting
 
-## Why I Created This
+## How This Repository Is Built
 
-I approach this repository as a real-world system build.
-I start by setting up components manually to understand how they work,
-then gradually automate them using DevOps and DevSecOps practices.
+I treat this repository as a real-world system build.
+I begin by setting up components manually to clearly understand the flow,
+dependencies, and failure points. Once the setup is clear, I automate
+infrastructure, deployments, and security using DevOps and DevSecOps
+practices.
 
-The focus is on:
+The work here follows a progressive approach:
 - Building an application from scratch
 - Moving from manual setup to full automation
 - Applying cloud, SRE, and security concepts step by step
-- Understanding failures, troubleshooting, and improving reliability
+- Troubleshooting failures and improving system reliability
+
