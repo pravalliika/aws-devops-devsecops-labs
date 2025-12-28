@@ -1,0 +1,118 @@
+
+first client server like if we want to connect to Facebook first we need toconnect to linux server then we can connect to FB 
+
+And to connect to that we have few protocols like to meet PM.CM will have some type of protocol.Common people have some protocol like that to connect to Fb also we have few set of protocols those are:
+
+Client Server architecture
+
+Networking between computers
+
+1. Network
+2. Facebook application
+
+serve --> lawyer serves to us, we are his client
+
+facebook is in Linux server, if problem comes we need to login to server..
+
+https://www.facebook.com 
+
+Protocol: https
+Port: 443
+IP: DNS IP
+Username and password --> authentication
+SSH --> Secure shell
+Port: 22
+IP, Username and password/private-key
+
+Firewall --> checks inbound and outbound traffic(for this user how much access there it validates )
+
+
+inbound --> incoming traffic --> port number 22, 103.149.59.114
+outbound --> outgoing traffic
+
+authentication
+==================
+1. what you know --> username password
+2. what you have --> keys, tokens, authentication, rsa token
+3. what you are --> fingerprint, retina, palm, face
+
+
+lock = public
+key = private
+
+key pairs --> public key and private key
+
+
+1. create key pair
+2. create firewall
+3. import public key to aws account
+4. create server and attach public key
+5. attach firewall to server
+
+git bash == putty == super putty == mobaxterm == mac terminal = windows cmd
+
+ssh clients
+
+pwd --> present working directory
+
+User Directory
+C:\Users\ramu --> windows format 
+/c/Users/ramu --> linux format 
+
+windows --> not case sensitive File == file == File 
+Linux --> case sensitive --> File != file no space in linux 
+
+/c/devops/<file-name> == C:\devops\<file-name> 
+
+ssh-keygen -f <file-name>
+
+
+
+ssh-rsa long-random-code 
+
+Region --> us-east-1
+
+now we should insert the public key in keypairs in ec2 instace so first create Security goup>SG-name-allow-all >Descripting-allowing all ports from all ips
+
+inbound rule:all traffic and my ipv4 and save the go to keypair import the pubic key pair you generated 
+
+and launch ec2 instance >name>ami select>and t3.micro(for practice)>key pair-existing which we gave>sg-which we gave and launch instance by connecting to terminal
+
+0.0.0.0/0
+
+98.81.70.98, 22, SSH, ec2-user, private-key
+
+ssh -i <private-key> ec2-user@98.81.70.98
+
+OS --> Redhat, Ubuntu, centos, fedore, suse, oracle linux, amazon linux, debian, rocky linux, kali, solaris
+
+Linux is os or not --> Linux is kernel
+
+OS --> to interact with hardware
+
+Kernal --> heart and brain of OS
+
+Kernel + UI == OS
+
+Redhat --> kernel + user interface ==> Redhat OS
+Debian --> Linux kernel + UI ==> Debian
+
+99.9% same all Linux distros/flavours
+
+Redhat --> Open source --> code is free
+Redhat enterprise RHEL --> support
+
+RHEL = AWS Linux = Centos = Fedora = Rocky Linux = AlmaLinux
+
+command <options> <inputs>
+
+/home/ec2-user --> linux home directory
+/c/users/ramu --> windows home directory
+
+cd --> change directory
+
+cd .. --> one step back
+
+ls --> list subdirectories
+ 
+
